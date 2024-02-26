@@ -19,16 +19,12 @@
 
 ```bash
 $ npm install
-$ npm run start-auth
+$ npm run dev
 ```
 
 ## 🛠️ Como utlizar
 
-### No arquivo INDEX.HTML dentro do sub-menu a opção abaixo:
-
-```
-Open with Live Server
-```
+### No browser navegue no endereço http:localhost:3000/:
 
 ## Requisitos do projeto
 
