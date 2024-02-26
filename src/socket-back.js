@@ -1,20 +1,5 @@
-import { documentosColecao } from "./dbConnect.js";
+import { encontrarDocumento, ataulizaDocumento } from "./documentosDb.js";
 import io from "./server.js";
-
-const documentos = [
-  {
-    nome: "JavaScript",
-    texto: "texto de Javacsript"
-  },
-  {
-    nome: "Node",
-    texto: "texto de Node"
-  },
-  {
-    nome: "Socket.io",
-    texto: "texto de Socket"
-  }
-];
 
 io.on("connection", (socket) => {
   console.log("Um cliente se conectou! ID: ", socket.id);
@@ -28,19 +13,12 @@ io.on("connection", (socket) => {
     }
   });
 
-  socket.on("texto_editor", ({texto, nomeDocumento}) => {
-    const documento = encontrarDocumento(nomeDocumento);
-    if (documento) {
-      documento.texto = texto;
+  socket.on("texto_editor", async ({ texto, nomeDocumento }) => {
+    const atualizacao = await ataulizaDocumento(nomeDocumento, texto);
+
+    if (atualizacao.modifiedCount) {
       socket.to(nomeDocumento).emit("texto_editor_clientes", texto);
     }
   });
-
 });
 
-function encontrarDocumento(nome) {
-  const documento = documentosColecao.findOne({
-    nome
-  });
-  return documento;
-}
