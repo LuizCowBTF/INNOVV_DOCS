@@ -6,7 +6,9 @@
 
 ### O Innovv Docs é um aplicativo para armazenar e editar documentações das masis variadas, voltada para a T.I.. É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 
-### Baseado em curso de formação para atualização profissional chamado “WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB”, disponibilizado pela Alura e ministrado pelo instrutor Antônio Evaldo. Nesta oportunidade pude atualizar meus conhecimentos em:
+### Baseado nos cursos de formação para atualização profissional chamados de “WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB” e o curso: "WebSockets: implemente autenticação e avance no Socket.IO", disponibilizado pela Alura e os cursos foram ministrados pelo instrutor Antônio Evaldo. Nesta oportunidade pude atualizar meus conhecimentos em
+
+### No primeiro curso
 
 * Implementar comunicações em tempo real com o protocolo WebSockets
 * Utilizar a biblioteca Socket.IO para facilitar desenvolvimento
@@ -14,6 +16,14 @@
 * Explorar diferentes formas de comunicação entre cliente e servidor, utilizando recursos como as Salas e o Reconhecimento do Socket.IO
 * Integrar um projeto com o MongoDB, um banco de dados NoSQL
 * Avancar nas funcionalidades do projeto
+
+### No segundo curso
+
+* Realizar cadastros e autenticações de usuários com Socket.IO
+* Entender e aplicar o fluxo de login, armazenamento de JWT e autorizações
+* Implementar middlewares para controlar os acessos aos servidores
+* Utilizar namespaces para agrupar conexões
+* Controlar informações dos sockets de forma local no servidor
 
 ## 🛠️ Instalação
 
