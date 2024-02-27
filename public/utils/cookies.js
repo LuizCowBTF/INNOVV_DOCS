@@ -1,4 +1,4 @@
-function definirCookies(chave, valor) {
+function definirCookie(chave, valor) {
   document.cookie = `${chave}=${valor};path=/`;
 }
 
@@ -10,7 +10,7 @@ function obterCookie(chave) {
 }
 
 function removerCookie(chave) {
-  document.cookie = `${chave}=; expires=Thu, 01 Jan 1960 00:00:00`;
+  document.cookie = `${chave}=; expires=Thu, 01 Jan 1970 00:00:00`;
 }
 
-export { definirCookies, obterCookie, removerCookie };
+export { definirCookie, obterCookie, removerCookie };
