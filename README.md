@@ -4,7 +4,7 @@
 
 ## Aplicativo de Documentações baseado em NodeJS
 
-### O Innovv Docs é um aplicativo para armazenar e editar documentações das masis variadas, voltada para a T.I.. É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+### O Innovv Docs é um aplicativo para armazenar e editar documentações das masis variadas, voltada para a T.I.. Multi usuários em tempo real, podendo o documento ser editado por vários usuários ao mesmo tempo. É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
 
 ### Baseado nos cursos de formação para atualização profissional chamados de “WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB” e o curso: "WebSockets: implemente autenticação e avance no Socket.IO", disponibilizado pela Alura e os cursos foram ministrados pelo instrutor Antônio Evaldo. Nesta oportunidade pude atualizar meus conhecimentos em
 
