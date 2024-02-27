@@ -1,7 +1,7 @@
 import { documentosColecao } from "./dbConnect.js";
 
-function obterDocumentos() {
-  const documentos = documentosColecao.find().toArray();
+function obterDocumentos(documento) {
+  const documentos = documentosColecao.find(documento).toArray();
   return documentos;
 }
 
